@@ -1,0 +1,131 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav h1{
+    float: left;
+    color: brown;
+    margin:1vh;
+    font-size: 20px;
+} /* make CHEN title float left*/
+
+ul.flex_container{
+    margin: 1vh;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 1vh; 
+    list-style-type: none;
+}
+
+li.flex_box a{
+    padding: 1vh;
+    font-size: medium;
+    border-width: 1px;
+    border-color: black;
+    text-decoration: none;
+}
+/* that's it for header, continuing on are the sections*/
+
+section.flex_container{
+    background-color: antiquewhite ;
+    display: flex;
+    margin: 50px;
+    gap: 5px;
+}
+    section.flex_container div.text_box{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    section.flex_container div.text_box h1{
+        font-size: 50px;
+    }
+
+    section.flex_container div.text_box p{
+        font-family: sans-serif;
+        margin-top: -30px;
+    }
+
+.flex_container_2{
+    position: relative;
+}
+
+section.flex_container_2 img{
+    width: 100%;
+    height: auto;
+}
+
+.text_box_2{
+    position:absolute;
+    width: 100%;
+    top: 20px;
+    left: clac(50%-300px);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+
+#forhead{
+  color:aliceblue
+}
+
+.text_box_2 p{
+    font-family: sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+div.form{
+    text-align: center;
+    gap: 5vh;
+}
+
+div.form form{
+    display:flex;
+    flex-direction: row;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.form button{
+    margin-top: 3vh;
+    font-size: 50px;
+    cursor: pointer;
+    color:fuchsia
+}
+
+
+
+
+
+
+/* the end for the sections, maybe I will put a form after this but, 
+'m working on the footer for now*/
+
+footer{
+    background-color: crimson;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap:10px;
+}
+
+footer code{
+    color: yellow;
+    margin-top: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

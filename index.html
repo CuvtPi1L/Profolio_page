@@ -3,55 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./style.css"
+    <title>Chen's page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <head>
-        <div class="container">
-            <h1>
-                Profolio
-            </h1>
-            
-            <nav>
-                <ul>
-                    <li>Background</li>
-                    <li>Personal Works</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+<body> 
+    <!-- Header-->
+    <header>
+        <nav>
+            <h1>CHEN</h1> <!-- Title-->
+            <ul class="flex_container">
+                <li class="flex_box" ><a href="">Contact</a></li>
+                <li class="flex_box" ><a href="">Personal Work</a></li>
+                <li class="flex_box" ><a href="">Family</a></li>
+                <li class="flex_box" ><a href="">Music</a></li><!-- these need to be sized and colored?-->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex_container">
+        <div class="text_box">
+<!--should I flex box in a flex box?, I mean what's the problem with it right?-->
+            <h1>You want to get to know me?</h1>
+    <!--I need to make the title super big-->
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Minima nihil cupiditate volupta
+                te laudantium saepe corporis quam consequuntur qui
+                a iure perspiciatis nostrum, officiis autem impedi
+                t quibusdam dolore id perferendis ducimus delectus!</p>
         </div>
-
-        <div class="Background">
-            <img src="./Assets/forhead.png" alt="my Forhead as Background">
-            <p>
-                You sure about this?
-            </p>
-        </div>
-    </head>
-
-    <section>
-        
-        <h2>
-            NAME
-        </h2>
-        <style>
-            .vertical {
-                border-left: 6px solid black;
-                height: 200px;
-                position:absolute;
-                left: 50%;
-            }
-        </style>
-
-        <p>
-            If you don't know my name how did you get here?
-        </p>
-
+        <img src="./Assets/I'llcoverfor you.png" width="300" height="300">
     </section>
 
+    <section class="flex_container_2">
 
+        <img src="./Assets/forhead.png" alt="forhead">
+        <!--I want this image to be behind texts-->
 
+        <div class="text_box_2">
+        <!--I just coped this from the last one, might not be a good idea-->
+            <h1 id="forhead">This is my forhead</h1>
+            <!--I need to make the title super big-->
+            <p>Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Minima nihil cupiditate volupta
+             </p>
+        </div>
+   
+    </section>
+
+    <div class="form">
+        <h1>So who are you my friend?</h1>
+        <form>
+            <div>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+            </div>
+            
+            <div>
+                <label for="Lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+
+            <div>
+                <label for="Lname">Credit card information?</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+        </form>
+        <button type="button">Steal my infomation!</button>
+    </div>
+    <footer>
+        <code>
+            Made with love with Cuban
+        </code>
+        <img src="./Assets/1280px-Cuban.svg.png" alt="this is my Cuban"
+             width="50" height="50">
+    </footer>
 
 
 
