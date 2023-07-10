@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background-color: darkgray;
+    box-sizing: border-box;
+}
+
+header nav ul{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+section{
+    display: flex;
+    background-color: aliceblue;
+    margin:50px;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    text-size-adjust: 50px;
+    text-shadow: 2;
+    color:aqua;
+}
+
+.personal_infomation{
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+.cat{
+    font-size: 25px;
+
+}
+
+.accomplishments{
+    font-size: 25px;
+}
+
+contact{
+    text-align: center;
+}
